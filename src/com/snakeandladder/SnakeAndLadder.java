@@ -47,9 +47,10 @@ public class SnakeAndLadder {
 
 				}
 			}
+			System.out.println("Move : " + i);
 			System.out.println("player present Position is " + playerPosition);
-			System.out.println("Moves : " + i);
 		}
+		System.out.println("");
+		System.out.println("Moves required to finish Game is :" + i);
 	}
-
 }
